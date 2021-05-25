@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos-Infotec</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./Styles/normalize.css" />
+    <link rel="stylesheet" href="/Styles/estilos.css" />
+    <script src="Scripts/jquery-3.2.1.js"></script>
+    <script src="Scripts/script.js"></script>
+    <script src="./Scripts/modal.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="contenedor">
+        <a href="index.html" class="logo"> Multiservicios Infotec</a>
+        <span class="icon-menu" id="btn-menu"
+          ><img src="https://img.icons8.com/android/24/ffffff/menu.png"
+        /></span>
+
+        <nav class="nav" id="nav">
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="producto.html#producto" class="menu__link">Productos</a>
+            </li>
+            <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+            <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="Productos" id="producto">
+      <h2 id="productos">Productos</h2>
+      <div class="store-wrapper">
+        <div class="category_list">
+          <a href="#productos" class="category_item" category="all">Todo</a>
+          <a href="#productos" class="category_item" category="ordenadores">Ordenadores</a>
+          <a href="#productos" class="category_item" category="laptops">Laptops</a>
+          <a href="#productos" class="category_item" category="smartphones">Smartphones</a>
+          <a href="#productos" class="category_item" category="accesorios">Accesorios</a>
+          <a href="#productos" class="category_item" category="impresoras">Impresoras</a>
+        </div>
+        <section class="products-list">
+          <!--Laptops-->
+
+          <div class="product-item" category="laptops">
+            <img src="images/hp 14-cm0004la.jpg" alt="" class="imagen-item" />
+            <a href="#">hp 14-cm0004la</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="laptops">
+            <img src="images/hp15-dw2032la.jpg" alt="" class="imagen-item" />
+            <a href="#">hp15-dw2032la</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="laptops">
+            <img src="images/asusrogstrix.jpg" alt="" class="imagen-item" />
+            <a href="#">asus rogstrix</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="laptops">
+            <img src="images/asusvivobook.jpg" alt="" class="imagen-item" />
+            <a href="#">asus vivobook</a>
+            <p>S/.2300</p>
+          </div>
+          <!--Fin de laptops-->
+          <!--Smartphones-->
+          <div class="product-item" category="smartphones">
+            <img src="images/a10s.jpg" alt="" class="imagen-item" />
+            <a href="#">Samsung Galaxy A10s</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="smartphones">
+            <img src="images/a20s.jpg" alt="" class="imagen-item" />
+            <a href="#">Samsung Galaxy A20s</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="smartphones">
+            <img src="images/a30s.jpg" alt="" class="imagen-item" />
+            <a href="#">Samsung Galaxy A30s</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="smartphones">
+            <img src="images/a51.jpg" alt="" class="imagen-item" />
+            <a href="#">Samsung Galaxy A51</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="smartphones">
+            <img src="images/y7.jpg" alt="" class="imagen-item" />
+            <a href="#">Huawei Y7 2019</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="smartphones">
+            <img src="images/y8s.jpg" alt="" class="imagen-item" />
+            <a href="#">Huawei Y8s</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="smartphones">
+            <img src="images/y9s.jpg" alt="" class="imagen-item" />
+            <a href="#">Huawei Y9s</a>
+            <p>S/.2300</p>
+          </div>
+          <!--Fin de Smartphones-->
+          <!--Computadoras y laptops-->
+          <div class="product-item" category="ordenadores">
+            <img src="images/lenovov50s.jpg" alt="" class="imagen-item" />
+            <a href="#">PC Lenovo</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="ordenadores">
+            <img src="images/hpslimline.jpg" alt="" class="imagen-item" />
+            <a href="#">PC HP</a>
+            <p>S/.2300</p>
+          </div>
+          <!--Fin de Computadoras-->
+          <!--Accesorios-->
+          <div class="product-item" category="accesorios">
+            <img src="images/samsungakg.jpg" alt="" class="imagen-item" />
+            <a href="#">Audifonos Samsung akg</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="accesorios">
+            <img src="images/huaweiFreeBuds3i.jpg" alt="" class="imagen-item" />
+            <a href="#">Huawei FreeBuds 3i</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="accesorios">
+            <img src="images/audifonoshuawei.jpg" alt="" class="imagen-item" />
+            <a href="#">Huawei Earphones</a>
+            <p>S/.2300</p>
+          </div>
+          <!-- Fin de Accesorios-->
+          <!--Impresoras-->
+          <div class="product-item" category="impresoras">
+            <img src="images/epson-ecotank-l6171.jpg" alt="" class="imagen-item" />
+            <a href="#">Epson ecotank L6171</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="impresoras">
+            <img src="images/Epson L575.jpg" alt="" class="imagen-item" />
+            <a href="#">Epson L575</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="impresoras">
+            <img src="images/Epson-ecoTank-L1110.jpg" alt="" class="imagen-item" />
+            <a href="#">Epson ecoTank L1110</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="impresoras">
+            <img src="images/Epson-EcoTank-L3110.jpg" alt="" class="imagen-item" />
+            <a href="#">Epson ecoTank L3110</a>
+            <p>S/.2300</p>
+          </div>
+          <div class="product-item" category="impresoras">
+            <img src="images/EpsonecotankL4160.jpg" alt="" class="imagen-item" />
+            <a href="#">Epson ecoTank L4160</a>
+            <p>S/.2300</p>
+          </div>
+          <!--Fin de imppresoras-->
+        </section>
+      </div>
+    </section>
+    <section class="slider">
+      <h3>Nuestros clientes:</h3>
+      <ul>
+        <li><img src="./images/cliente1.png" /></li>
+        <li><img src="./images/cliente2.pg.jpg" /></li>
+        <li><img src="./images/cliente3.png" /></li>
+        <li><img src="./images/cliente4.png" /></li>
+      </ul>
+    </section>
+    <section class="pie">
+      <footer class="footer">
+        <div class="pie-struct">
+          <h4>Empresa:</h4>
+          <a href="nosotros.html#sobrenosotros" class="contenido-pie">¿Quienes somos?</a>
+          <a href="nosotros.html#mision" class="contenido-pie">Misión</a>
+          <a href="nosotros.html#vision" class="contenido-pie">Visión</a>
+          <a href="nosotros.html#sobrenosotros" class="contenido-pie">Ubicacion</a>
+        </div>
+        <div class="pie-struct">
+          <h4>Redes Sociales:</h4>
+          <a href="facebook."
+            ><img src="https://img.icons8.com/android/20/ffffff/facebook-new.png"
+          /></a>
+          <a href="instagram"
+            ><img src="https://img.icons8.com/doodle/20/ffffff/instagram-new.png"
+          /></a>
+          <a href="whatsapp"
+            ><img src="https://img.icons8.com/pastel-glyph/20/ffffff/whatsapp--v2.png"
+          /></a>
+        </div>
+        <div class="pie-struct">
+          <h4>© Todos los derechos Reservados - Multiservicios Infotec.</h4>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
